@@ -24,6 +24,7 @@ xtrain<-read.table(file.path(pathfiletrain,"X_train.txt"))
 ytrain<-read.table(file.path(pathfiletrain,"Y_train.txt"))
 subjecttrain<-read.table(file.path(pathfiletrain,"subject_train.txt"))
 
+
 #Get activity labels 
 activitylabels<-read.table(file.path(pathfile,
                               			"activity_labels.txt"),
